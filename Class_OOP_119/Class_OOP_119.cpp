@@ -24,31 +24,26 @@ public:
 		cin >> namaM;
 		cout << "jumlah sks :";
 		cin >> sks;
-
-		void tampil() {
+	}
+void tampil() {
 			cout << "kode matakuliah : " << kode;
 			cout << "nama matakuliah : " << namaM;
 			cout << "sks : " << sks;
 		}
 	};
-		
 
 
-		int main() {
-			mahasiswa mhs1;
-			matakuliah mk;
 
-			cout << "masukkan nim : ";
-			cin >> mhs1.nim;
-			cout << " masukkan nama : ";
-			cin >> mhs1.nama;
-			mhs1.cetak();
+int main() {
+	mahasiswa mhs1;
+	matakuliah mk;
 
-			mk.input();
-			mk.tampil();
+	cout << "masukkan nim : ";
+	cin >> mhs1.nim;
+	cout << " masukkan nama : ";
+	cin >> mhs1.nama;
+	mhs1.cetak();
 
-
-			
-
-	}
-};
+	mk.input();
+	mk.tampil();
+}
