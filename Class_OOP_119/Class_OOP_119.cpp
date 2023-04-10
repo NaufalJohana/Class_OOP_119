@@ -10,3 +10,24 @@ public: void cetak() {
 	cout << "\nNama = " << nama;
 	}
 };
+
+class matakuliah {
+private:
+	string kode;
+	string namaM;
+	int sks;
+public:
+	void input() {
+		cout << "masukkan kode matakuliah : ";
+		cin >> kode;
+		cout << "masukkan Nama matakuliah :";
+		cin >> namaM;
+		cout << "jumlah sks :";
+
+
+
+
+			
+
+	}
+};
